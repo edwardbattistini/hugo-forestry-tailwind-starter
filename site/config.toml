@@ -1,0 +1,44 @@
+aseURL = ""
+languageCode = "en-uk"
+title = "Edward Battistini - Product Designer - 2021"
+description = "Product designer with 10 years of experience creating solution for various brand. Currently Lead UX at Zava"
+staticDir = ["assets", "images", "videos","static"]
+publishdir = "public"
+mainSections = ["posts", "about", "contact"]
+sectionPageMenu = "main"
+buildDrafts = false
+# canonifyURLs = true
+# disableFastRender = true
+# disablePathToLower = true
+
+[menu]
+    [[menu.main]]
+        identifier = "Home"
+        name = "Home"
+        menu= "main"
+        url = "/"
+        weight = 1
+    
+    [[menu.main]]
+        identifier = "Posts"
+        menu= "main"
+    	name = "Projects"
+        url = "/posts/"
+        weight = 2
+
+    [[menu.main]]
+        identifier = "About"
+        menu= "main"
+    	name = "About"
+        url = "/about/"
+        weight = 3
+    
+
+
+[params]
+author = "Edward Battistini"
+email = "contact@edwardbattistini.com "
+avatar = "images/logo.svg"
+profilepic = "images/moreme.jpg"
+profilepichover = "images/moreme_hover.jpg"
+description = 'Product designer'
